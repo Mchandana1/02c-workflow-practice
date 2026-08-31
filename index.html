@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>O2C Credit Decision Cockpit</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>O2C Credit Decision Cockpit</h1>
+        <p>Order-to-Cash Credit Review</p>
+    </header>
+
+    <main>
+
+        <section class="kpi-section">
+
+            <div class="kpi-card">
+                <h3>Blocked Orders</h3>
+                <p id="blockedOrders">0</p>
+            </div>
+
+            <div class="kpi-card">
+                <h3>Blocked Value</h3>
+                <p id="blockedValue">₹0</p>
+            </div>
+
+            <div class="kpi-card">
+                <h3>High Risk Orders</h3>
+                <p id="highRiskOrders">0</p>
+            </div>
+
+        </section>
+
+        <section class="orders-section">
+
+            <h2>Blocked Sales Orders</h2>
+
+            <div id="ordersContainer">
+                <!-- Orders will appear here -->
+            </div>
+
+        </section>
+        <section class="review-section" id="reviewSection">
+
+    <h2>Order Review</h2>
+
+    <div id="reviewContainer">
+        <p>Select an order to review.</p>
+    </div>
+
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+<section class="impact-section">
+
+    <h2>Business Impact</h2>
+
+    <div class="impact-grid">
+
+        <div class="impact-card">
+            <h3>Current Review Time</h3>
+            <p>15 min / order</p>
+        </div>
+
+        <div class="impact-card">
+            <h3>Target Review Time</h3>
+            <p>5 min / order</p>
+        </div>
+
+        <div class="impact-card">
+            <h3>Potential Reduction</h3>
+            <p>67%</p>
+        </div>
+
+    </div>
+
+    <p class="impact-note">
+        Illustrative prototype target based on streamlined
+        credit review and prioritization.
+    </p>
+
+</section>
+</html>
